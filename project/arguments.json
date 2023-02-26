@@ -1,0 +1,19 @@
+{
+  "env": "SuperMarioBros-1-1-v0",
+  "weights": "project/weights.pt",
+  "action_complexity": 0,
+  "clip_param": 0.1,
+  "value_loss_weight": 1,
+  "action_loss_weight": 1,
+  "entropy_loss_weight": 0.01,
+  "num_envs": null,
+  "lr": 0.0007,
+  "num_frames": 5000000.0,
+  "num_steps": 512,
+  "gamma": 0.9,
+  "num_reuse": 6,
+  "grad_norm_clip": 0.5,
+  "save_dir": "project",
+  "device": "0",
+  "multi_frames": 4
+}
